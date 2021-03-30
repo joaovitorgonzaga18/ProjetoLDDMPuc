@@ -18,3 +18,4 @@ O campo do valor das bebidas alcoolicas não pode ser selecionado até o usuári
 O slider que existe na tela serve para definir a porcentagem do garçom baseado no preço total da conta.
 
 
+
