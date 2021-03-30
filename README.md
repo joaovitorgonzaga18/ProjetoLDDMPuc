@@ -16,3 +16,5 @@ Uso do app Racha Conta:
 Quatro campos de texto para digitar as informações necessárias, todas na mesma tela.
 O campo do valor das bebidas alcoolicas não pode ser selecionado até o usuário digitar o numero de pessoas que consumiram alcool.
 O slider que existe na tela serve para definir a porcentagem do garçom baseado no preço total da conta.
+
+
