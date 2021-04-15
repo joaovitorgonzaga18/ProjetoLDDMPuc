@@ -1,4 +1,4 @@
-# app_educativo
+# ProjetoLDDM
 
 A new Flutter application.
 
