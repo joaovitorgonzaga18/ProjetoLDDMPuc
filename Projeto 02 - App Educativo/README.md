@@ -1,16 +1,8 @@
 # ProjetoLDDM
 
-A new Flutter application.
+Projetos Práticos da Disciplina de Laboratório de Desenvolvimento Móvel.
 
-## Getting Started
+Projeto 02 - App Educativo: 
+•Com a pandemia muitos pais precisam auxiliar na alfabetização de seus filhos, visando atender esse público, nestaatividade vocês deverão criar um aplicativo que vai ajudar esses pais
+•Atarefa é auxiliar na alfabetização, ensinando tanto as letras do alfabeto, como os números para crianças
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
