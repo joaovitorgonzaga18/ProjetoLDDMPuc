@@ -1,15 +1,16 @@
+# app_educativo
 
-ProjetoLDDMPuc
-Projetos Práticos da Disciplina de Laboratório de Desenvolvimento Móvel.
+A new Flutter application.
 
-Projeto 01 - Racha conta:
-•Com a pandemia muitos pais precisam auxiliar na alfabetização de seus filhos, visando atender esse público, nestaatividade vocês deverão criar um aplicativo que vai ajudar esses pais
-•Atarefa é auxiliar na alfabetização, ensinando tanto as letras do alfabeto, como os números para crianças
+## Getting Started
 
-Instruções dadas pelo Instrutor(a):
-•Seja criativo e pense em um APP quesejainteressante,casoqueira pode pensar em jogos
-•Caso opte por desenvolver um joguinho, deverá ser desenvolvido pelo menos dois jogos, um para ensinar as letras (de A até Z) e outro para ensinar os números (de0 até 20)
-•O APP deve ter pelo menos três telas,sendo que a primeira tela deverá ser uma tela de login(que basicamente será um form que aindanão valida dados persistidos)
+This project is a starting point for a Flutter application.
 
-Uso do app Racha Conta: 
-Link do vídeo de demonstração do APP : 
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
