@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "159464151806",
+    "project_id": "agenda-de-contatos-puc",
+    "storage_bucket": "agenda-de-contatos-puc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159464151806:android:b508a3e2ed59ee18fd23af",
+        "android_client_info": {
+          "package_name": "com.joao.agenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159464151806-ahpj1d0bg9qj38jek66cjt80oqvgabhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4sWrH3Q2GlkuAqomnpxoJB4lN_ZrUUb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159464151806-ahpj1d0bg9qj38jek66cjt80oqvgabhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
