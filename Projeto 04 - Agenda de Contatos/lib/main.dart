@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: TelaLogin(title: 'Lista de contatos 1.0 - Prática 04'),
+      home: TelaLogin(title: 'Agenda de contatos 1.0 - Prática 04'),
     );
   }
 }

@@ -1,6 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_storage/firebase_storage.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:path/path.dart';
+import 'package:agendacontatos_app/image.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -35,26 +39,28 @@ class _HomeState extends State<Home> {
     //snapshots = db.collection("contatos").where("excluido", isEqualTo: false);
 
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Agenda de Contatos"),
+        title: Text("Agenda de Contatos"),
           bottom: TabBar(
-            tabs: <Widget>[
-              //Text("Primeira Guia", style: TextStyle(fontSize: 16),),
-              //Text("Segunda Guia", style: TextStyle(fontSize: 16),),
-              //Text("Terceira Guia", style: TextStyle(fontSize: 16),),
-              Tab(icon: Icon(Icons.group_add)),
-              //Icone ilustrativo da primeira tela
-              Tab(icon: Icon(Icons.list)),
-              //Icone ilustrativo da segunda tela
-              Tab(icon: Icon(Icons.system_update_alt)),
-              //Icone ilustrativo da terceira tela
-            ],
+          tabs: <Widget>[
+            Tab(icon: Icon(Icons.upload_file)),
+            //Icone ilustrativo da teste
+            Tab(icon: Icon(Icons.group_add)),
+            //Icone ilustrativo da primeira tela
+            Tab(icon: Icon(Icons.list)),
+            //Icone ilustrativo da segunda tela
+            Tab(icon: Icon(Icons.system_update_alt)),
+            //Icone ilustrativo da terceira tela
+          ],
           ),
-        ),
+    ),
         body: TabBarView(
           children: [
+            new Container(
+              child: Imagem(),
+            ),
             //Primeira Tela -> Página de cadastro de um novo contato
             new Container(
               child: new Form(
@@ -273,7 +279,7 @@ class _HomeState extends State<Home> {
                         var contato = await FirebaseFirestore.instance
                             .doc('/contatos/' + caminho)
                             .get();
-                        if (contato['excluido'] == false && _controllerBusca.text == contato["identificador"]) {
+                        if (contato['excluido'] == false && (_controllerBusca.text == contato["identificador"])) {
                           //Armazena os dados do contato que está sendo buscado.
                           showDialog(
                               context: context,
